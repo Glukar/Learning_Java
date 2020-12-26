@@ -1,0 +1,9 @@
+import java.util.*;
+class Absolute {
+  public static void main(String[] args){
+    //Deklaracija
+    int x, abs;
+    //Unos broja u promenljivu x
+    System.out.println("Unesite ceo broj: ")
+  }
+}

@@ -1,0 +1,10 @@
+import java.util.*;
+class Funkcija {
+  public static void main(String[] args){
+    Scanner input =  new Scanner(System.in);
+    double x, rez;
+    // Unos argumenata funkcije
+    System.out.print("Unesite vrednost argumenta funkcije: ");
+   
+  }
+}

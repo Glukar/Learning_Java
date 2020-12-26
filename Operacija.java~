@@ -1,0 +1,12 @@
+import java.util.*;
+class Operacija {
+  public static void main (String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklarisanje
+    double broj1, broj2, rezultat;
+    char op;
+    // Unos operanada i operacija
+    System.out.print("Unesi prvi broj: ");
+    broj1 = input.nextDouble();
+  }
+}

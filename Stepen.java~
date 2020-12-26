@@ -1,0 +1,11 @@
+import java.util.*;
+class Stepen {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    double x, rez;
+    int n, i;
+    // Ucitavanje realnog broja u promenljivi x
+    System.out
+  }
+}

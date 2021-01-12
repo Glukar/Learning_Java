@@ -1,0 +1,8 @@
+class RazlikaVezba {
+  public static void main(String[] args){
+    int a = 4;
+    int b = 3;
+    int razlika = a-b;
+    System.out.println("Razlika a - b je:" + razlika);
+  }
+}

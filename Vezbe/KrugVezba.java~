@@ -1,0 +1,7 @@
+import java.util.*;
+class KrugVezba {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    int r
+  }
+}

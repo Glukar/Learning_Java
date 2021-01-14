@@ -1,0 +1,13 @@
+import java.util.*;
+class SumaVezba {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int x, n;
+    double suma = 1.0;
+    System.out.print("Unesite broj x: ");
+    x = input.nextInt();
+    System.out.print("Unesite broj n: ");
+    n = input.nextInt();
+  }
+}

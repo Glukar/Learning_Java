@@ -1,0 +1,6 @@
+import java.util.*;
+class MinimumVezba {
+  public static void main(String[] args) {
+    
+  }
+}

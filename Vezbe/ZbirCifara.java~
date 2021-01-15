@@ -1,0 +1,16 @@
+import java.util.*;
+class ZbirCifara {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int x, n, b;
+    System.out.print("Unesite vas broj: ");
+    x = input.nextInt();
+    for (int i = 0; i <= x; i++) {
+      for (int c = 0; c <= i; c++) {
+        b = x % 10;
+      }
+    }
+    System.out.println(b);
+  }
+}

@@ -1,0 +1,16 @@
+class Breaks {
+  public static void main(String[] arguments) {
+    boolean t = true;
+    prvi: {
+      drugi: {
+        treci: {
+          System.out.println("pre break");
+          if (t) break drugi;
+          System.out.println("ovo se ne izvrsava");
+        }
+        System.out.println("ovo se ne izvrsava");
+      }
+      System.out.println("posle bloka drugi");
+    }
+  }
+}

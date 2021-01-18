@@ -1,9 +1,0 @@
-import java.util.*;
-class PogadjanjeVezba {
-  public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
-    // Deklaracija
-    int broj = Math.random();
-    System.out.println(broj);
-  }
-}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class StepenSpeedrun {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int x;
+    double n, rez = 0;
+    System.out.print("Unesite realan broj n: ");
+    n = input.nextInt();
+    System.out.print("Unesite prirodan broj x: ");
+    x = input.nextInt();
+    for (int i = 0; i <= n; i++) {
+      rez = x 
+    }
+  }
+}

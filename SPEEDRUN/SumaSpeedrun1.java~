@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class SumaSpeedrun1 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int n, suma = 0;
+    System.out.print("Unesite broj n: ");
+    n = input.nextInt();
+    for (int i = 1;i < n;i++) {
+      suma = 1 / i;
+    }
+    System.out.println("Vasa suma je: " + suma);
+  }
+}

@@ -1,0 +1,15 @@
+import java.util.*;
+class ParneCifreVezba {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int n;
+    System.out.print("Unesite broj za koji zelite da proverite da li su sve njegove cifre parne: ");
+    n = input.nextInt();
+    if (n % 2 == 1) {
+      System.out.println("Sve cifre unetog broja nisu parne.");
+    } else {
+      System.out.println("Sve cifre unetog broja su parne.");
+    }
+  }
+}

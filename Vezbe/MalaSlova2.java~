@@ -1,0 +1,8 @@
+import java.util.*;
+class MalaSlova2 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int c, broj = 0, slova = 0, ostalo = 0;
+  }
+}

@@ -1,0 +1,24 @@
+import java.util.*;
+class NZDVezba1 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int prvi, drugi;
+    do {
+    System.out.print("Unesite prvi broj: ");
+    prvi = input.nextInt();
+    } while (prvi <= 0);
+    do {
+    System.out.print("Unesite drugi broj: ");
+    drugi = input.nextInt();
+    } while (drugi <= 0);
+    while (prvi < drugi) {
+      if (prvi > drugi) {
+        prvi -= drugi;
+      } else {
+        drugi -= prvi;
+      }
+    }
+    System.out.println(prvi);
+  }
+}

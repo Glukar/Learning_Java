@@ -1,0 +1,11 @@
+import java.util.*;
+class TrougaoVezba {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int n;
+    for (int i = 0; i <= n; i++) {
+      System.out.print("-");
+    }
+  }
+}

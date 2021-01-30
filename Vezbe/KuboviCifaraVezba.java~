@@ -1,0 +1,9 @@
+class KuboviCifaraVezba {
+  public static void main(String[] args) {
+    // Deklaracija
+    int kub;
+    for (int i = 1; i <= 10000; i++) {
+      
+    }
+  }
+}

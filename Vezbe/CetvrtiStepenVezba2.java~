@@ -1,0 +1,19 @@
+class CetvrtiStepenVezba2 {
+  public static void main(String[] args) {
+    int n = 1;
+    glavnaPetlja: while(true) {
+      n++;
+      int zbir = 0;
+      while (n != 0) {
+        int cifra = n % 10;
+        zbir += cifra * cifra * cifra * cifra;
+        if (n > zbir) {
+          continue glavnaPetlja;
+        } else {
+          n /= 10;
+        }
+      }
+    }
+    System.out.println(n);
+  }
+}

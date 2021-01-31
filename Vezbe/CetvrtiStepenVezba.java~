@@ -1,0 +1,9 @@
+class CetvrtiStepenVezba {
+  public static void main(String[] args) {
+    // Deklaracija
+    int n;
+    glavnaPetlja: while(true) {
+      
+    }
+  }
+}

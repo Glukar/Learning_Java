@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class NizoviVezba {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int duz1, duz2, i, j;
+    boolean isti;
+    int[] duz = new int[duz1];
+    System.out.print("Unesite prvi niz celih brojeva: ");
+    for (i = 0; i < 10;i++) {
+      duz1 = input.nextInt();
+    }
+  }
+}

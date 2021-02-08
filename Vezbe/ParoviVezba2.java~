@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class ParoviVezba2 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int i, j, n;
+    System.out.println("Unesite n: ");
+    n = input.nextInt();
+    glavnaPetlja: for (i = 1; i <= n;i++) {
+      unutrasnjaPetlja: for (j = 1; j <= i; j++) {
+        int pom = i;
+        int zbir = 0;
+        while (pom != 0) {
+          int cifra = pom % 10;
+          zbir += cifra * cifra;
+          if (zbir > i) {
+            continue unutrasnjaPetlja;
+          } else {
+            pom /= 10;
+          }
+        }
+      }
+    }
+  }
+}

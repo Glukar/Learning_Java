@@ -1,12 +1,12 @@
-import java.util.*;
-class ParoviVezba {
+import java.util.Scanner;
+class ParoviVezba3 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.print("Unesite prirodan broj n: ");
+    int i = 0, j = 0;
+    System.out.println("Unesite prirodan broj n: ");
     int n = input.nextInt();
-    int j = 0, i = 0;
-    glavnaPetlja: for(i = 1;i <= n; i++) {
-      unutrasnjaPetlja: for(j = 1;j <= i;j++) {
+    glavnaPetlja: for (i = 1;i <= n;i++) {
+      unutrasnjaPetlja: for (j = 1; j <= n;j++) {
         int proizvod = i * j;
         int zbir = 0;
         int pom = i;
@@ -25,20 +25,19 @@ class ParoviVezba {
           zbir += cifra * cifra;
           if (zbir > proizvod) {
             continue unutrasnjaPetlja;
-        } else {
-          pom /= 10;
+          } else {
+            pom /= 10;
+          }
+        }
+        if (proizvod == zbir) {
+          break glavnaPetlja;
         }
       }
-      if (zbir == proizvod) {
-        break glavnaPetlja;
-      } 
-    }
     }
     if (i <= n) {
-      System.out.println("Trazeni par brojeva je: " + i + " i "+ j);
+      System.out.println("Par brojeva je: " + i + " i " + j);
     } else {
-      System.out.println("Trazeni par brojeva ne postoji.");
-    }
+      System.out.println("Ne postoji takav par brojeva.");
     }
   }
-
+}

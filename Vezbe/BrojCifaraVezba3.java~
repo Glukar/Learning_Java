@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class BrojCifaraVezba3 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int ostali = 0;
+    int[] niz = new int[10];
+    System.out.print("Unesite string: ");
+    String s = input.next();
+    for (int i = 0; i < s.length;i++) {
+      char c = s.charAt(i);
+      if (c <= '9' && c >= '0') {
+        niz++;
+      } else {
+        ostali++;
+      }
+    }
+    for (int i = 0;i < 10;i++) {
+      System.out.println(niz[i]);
+    }
+    System.out.println(ostali)
+  }
+}

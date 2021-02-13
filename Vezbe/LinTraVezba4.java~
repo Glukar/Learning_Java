@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class LinTraVezba4 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    boolean nadjen = false;
+    int broj, i;
+    System.out.print("Unsite celi broj: ");
+  }
+}

@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class DuplikatiVezba {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Deklaracija
+    int duz1, duz2, i, j;
+    int[] niz1 = new int[50];
+    int[] niz2 = new int[50];
+    
+  }
+}

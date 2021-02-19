@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class KonverzijaVezba {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Glavna deklaracija
+    int zbir;
+    String s;
+    System.out.print("Unesite string koji zelite da pretvorite u broj: ");
+    s = input.next();
+    // Uzimanje jednog karaktera i pretvaranje njega u broj.
+    for (int i = 0; i < s.length; i++) {
+      char c = s.charAt(i);
+      
+    }
+  }
+}

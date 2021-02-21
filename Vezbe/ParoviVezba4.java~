@@ -1,0 +1,40 @@
+import java.util.Scannerz
+  class ParoviVezba4 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Glavna deklaracija
+    int i, j = 0, proizvod, n, pom, zbir;
+    System.out.print("Unesite n: ");
+    n = input.nextInt();
+    glavnaPetlja: for (i = 1; i < n; i++) {
+      unutrasnjaPetlja: for (j = 1; j < n; j++) {
+        proizvod = i * j;
+        pom = i;
+        zbir = 0;
+        while (pom != 0) {
+          int cifra = pom % 10;
+          zbir += cifra * cifra;
+          if (zbir > proizvod) {
+            continue unutrasnjaPetlja;
+          } else {
+            pom /= 10;
+          }
+        }
+      }
+      pom = j;
+      zbir = 0;
+      while (pom != 0) {
+        int cifra = pom % 10;
+        zbir += cifra * cifra;
+        if (zbir > proizvod) {
+          continue glavnaPetlja;
+        } else {
+          pom /= 10;
+        }
+      }
+    }
+    if (zbir == proizvod) {
+      System.out.println("Odgovarajuci par brojeva je: " + proizvod);
+    }
+  }
+}

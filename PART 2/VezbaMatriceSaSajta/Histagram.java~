@@ -1,0 +1,8 @@
+/*Napisati program koji crta histogram pojave svih slova u ucitanom stringu s. 
+  Na histogramu treba za svako slovo iscrtati onoliko zvezdica koliko se puta javljaju u stringu.*/
+
+class Histagram{
+  public static void main(String[] args){
+    
+  }
+}

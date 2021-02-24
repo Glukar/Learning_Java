@@ -1,0 +1,7 @@
+/*Program za mnozenje dve celobrojne matrice. */
+
+class MnozenjeMatrice123{
+  public static void main(String[] args){
+    
+  }
+}

@@ -1,0 +1,18 @@
+/*.Napisati program koji ucitva string s koji sadrzi samo cifre,
+   konvertuje ga u ceo broj i ispisuje tako dobijeni broj. Ukoliko
+   string ne sadrzi samo cifre, ispisati poruku o gresci.*/
+
+class StringSsamoCifre{
+  public static void main(String[] args){
+    int[] broj = new int[100];
+    
+    System.out.println("Ucitati string");
+    String s = Svetovid.in.readLine();
+    
+    for(int i = 0; i < s.lenght(); i++){
+      char c = s.charAt(i);
+      if()
+    }
+    
+  }
+}

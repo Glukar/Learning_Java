@@ -1,0 +1,16 @@
+ /*Program koji ucitava niz celih brojeva duzine duz i jedan broj i metodom linearnog pretrazivanja pronalazi trazeni broj u nizu i ispisuje njegovu poziciju. 
+    Ukoliko se trazeni broj ne nalazi u nizu, ispisati odgovarajucu poruku.*/
+
+class PronalaziBrojUnizu{
+  public static void main(String[] args){
+    
+    System.out.println("Ucitajte duzinu niza");
+    int duz = Svetovid.in.readInt();
+    int[] niz = new int[duz];
+    
+    for(int i = 0; i < duz; i++){
+      System.out.println("Ucitajte " + i + ". element u nuz: ");
+      niz[i] = Svetovid.in.readInt();
+    }
+  }
+}

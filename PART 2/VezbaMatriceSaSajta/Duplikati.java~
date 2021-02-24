@@ -1,0 +1,22 @@
+/*Program koji ucitava niz od duz celih brojeva i kreira i
+   ispisuje novi niz tako sto iz istarog niza izbaci sve duplikate.*/
+
+class Duplikati{
+  public static void main(String[] args){
+    int[] niz2 = new int[50];
+    
+    System.out.println("Ucitajte duz niza");
+    int duz = Svetovid.in.readInt();
+    int[] niz1 = new int[duz];
+    
+    for(int i = 0; i < duz; i++){
+      System.out.println("Unesite " + (i + 1) + ". element niza = ");
+      niz1[i] = Svetovid.in.readInt();
+    }
+    
+    int duz2 = 0;
+    
+    for
+    
+  }
+}

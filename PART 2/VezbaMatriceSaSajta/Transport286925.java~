@@ -1,0 +1,28 @@
+/*Program koji transponuje datu kvadratnu matricu celih brojeva
+   tako da rezultujuca matrica bude u originalnoj matrici. Ne koristiti
+   pomocne matrice.*/
+
+class Transport286925{
+  public static void main(String[] args){
+    int i, j;
+    
+    int n = 4;
+    int[][] mat = new int[n][n];
+    
+    for(i = 0; i < n; i++){
+      for(j = 0; j < n; j++){
+        System.out.print("Unesite " + (i + 1) + ". element matrice " [" + i + "] [" + j + "] = ");
+        mat[i][j] = Svetovid.in.readInt();
+      }
+    }
+    
+    System.out.println("Originalna matrica");
+    for(i = 0; i < n; i++){
+      for(j = 0; j < n; j++){
+        System.out.print(mat[i][j] + "\t");
+      }
+      System.out.println();
+    }
+    
+  }
+}

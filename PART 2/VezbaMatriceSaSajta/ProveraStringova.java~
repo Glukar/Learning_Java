@@ -1,0 +1,17 @@
+/*Napisati program koji ucitava dva stringa i proverava da li su ti stringovi jednaki.Program ne treba da razlikuje velika i mala slova.*/
+
+class ProveraStringova{
+  public static void main(String[] args){
+    
+    System.out.println("Ucitajte prvi sting");
+    String s1 = Svetovid.in.readLine();
+    
+    System.out.println("Ucitajte drugi sting");
+    String s2 = Svetovid.in.readLine();
+    
+    if(s1.length() != s2.length()){
+      System.out.println("Nisu jednaki!");
+    }
+    
+  }
+}

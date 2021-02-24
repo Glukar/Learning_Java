@@ -1,0 +1,13 @@
+class Kolokvijum2{
+  public static void main(String[] args){
+    
+    do{
+      
+      System.out.println("Ucitatiti dimenzuje n");
+      int n = Svetovid.in.readInt();
+      System.out.println("Ucitati dimenziju m");
+      int m = Svetovid.in.readInt();
+      
+    }while((n && m <= 0) || (n && m > 20));
+  }
+}

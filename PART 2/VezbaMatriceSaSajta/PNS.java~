@@ -1,0 +1,24 @@
+/*Napisati program koji ucitava string s i cele brojeve p i n,
+   i u string rez kopira n znakova iz stringa s pocevsi od znaka
+   na poziciji p. Ukoliko to nije moguce, ispisati poruku o gresci.*/
+
+
+class PNS{
+  public static void main(String[] args){
+    
+    System.out.println("Ucitajte string");
+    String s = Svetovid.in.readLine();
+    
+    System.out.println("Ucitajte ceo broj p");
+    int p = Svetovid.in.readInt();
+    System.out.println("Ucitajte ceo broj n");
+    int n = Svetovid.in.readInt();
+    
+    String rez = "";
+    
+    for(int i = p; i < s.length(); i++){
+      
+    }
+    
+  }
+}

@@ -1,0 +1,53 @@
+/* 
+ Program koji ucitava dva broja(intiger-a), 
+znak za operaciju (+: sabiranje, *: mnozenje, /: deljenje, %ostatak), 
+primenjuje datu operaciju na ucitane brojeve i ispisuje rezultat izracunavanja.
+ (mora se paziti na to da ako korisnik unese nesto sto neodgovara,
+ treba izbaciti poruku da je doslo do greske) 
+ 
+ Zatim napraviti niz duzine poslednje cifre od rezultata prosle operacije(u slucaju da je rezultat bio nula izbaciti poruku da je doslo do greske),
+ posle toga popuniti niz sa jedinicama (brojem 1)
+ 
+
+----------------------------
+Za uneti prvi broj 10
+Za uneti drugi broj 3
+Operacija podeljeno
+---------------------------
+
+Rezultat je: 3
+1
+1
+1
+ */
+import java.util.Scanner;
+class OperacijeKolokvijum{
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Glavna deklaracija
+    int a, b, rez;
+    char op;
+    System.out.print("Unesite prvi broj: ");
+    a = input.nextInt();
+    System.out.print("Unesite drugi broj: ");
+    b = input.nextInt();
+    // Moze se raditi i sa do while loopom
+    System.out.print("Unesite validnu operaciju(+: sabiranje, *: mnozenje, /: deljenje, %ostatak): ");
+    op = input.next().charAt(0);
+    if (op == '+') {
+      rez = a + b;
+    } else if (op == '-') {
+      rez = a - b;
+    } else if (op == '/') {
+      if (b == '0') {
+        System.out.print("Ne moze se deliti sa nulom!");
+      }
+      rez = a / b;
+    } else if (op == '%'){
+      rez = a % b;
+    } else {
+      System.out.println("Niste uneli validnu operaciju.");
+    }
+    System.out.println("Vas rezultat izracunavanja je: " + rez);
+  }
+}

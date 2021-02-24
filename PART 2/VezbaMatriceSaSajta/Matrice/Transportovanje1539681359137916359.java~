@@ -1,0 +1,9 @@
+/*Program koji transponuje datu kvadratnu matricu celih brojeva
+   tako da rezultujuca matrica bude u originalnoj matrici. Ne koristiti
+   pomocne matrice.*/
+
+class Transportovanje1539681359137916359{
+  public static void main(String[] args){
+    
+  }
+}

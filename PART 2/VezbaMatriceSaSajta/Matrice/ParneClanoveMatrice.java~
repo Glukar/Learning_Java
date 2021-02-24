@@ -1,0 +1,7 @@
+/*Ucitati dvodimenzionalni niz. Ispisati parne clanove matrice.*/
+
+class ParneClanoveMatrice{
+  public static void main(String[] args){
+    
+  }
+}

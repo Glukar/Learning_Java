@@ -1,0 +1,23 @@
+/*Program koji ucitava tabelu ocena studenata po predmetima, i racuna za
+   svakog studenta prosecnu ocenu na polozenim ispitima, a za svaki predmet 
+   broj studenata koji su polozili ispit, kao i prolaznost na ispitu (u %).*/
+
+class Ocene123145151{
+  public static void main(String[] args){
+    int brS, brP, i, j;
+    
+    System.out.println("Unesite broj studenata");
+    brS = Svetovid.in.readInt();
+    System.out.println("Unesite broj predmeta");
+    brP = Svetovid.in.readInt();
+    
+    //Unos ocena po studentu
+    for(i = 0; i < brS; i++){
+      System.out.println("Unesite ocene za studenta " + i + ". ")
+      for(j = 0; j < brP; j++){
+        System.out.println("Unesite ocene predmeta " + j + ". ")
+      }
+    }
+    
+  }
+}

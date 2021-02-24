@@ -1,0 +1,13 @@
+/*Unesite prirodan broj n, zatim matricu dimenzije n*n i ispisati matricu kao i  maksimalan clan matrice.*/
+
+class MaksimumMatrice{
+  public static void main(String[] args){
+    int n;
+    
+    do{
+      System.out.println("Unesite prirodan broj n");
+      n = Svetovid.in.readInt();
+    }while(n <= 0);
+
+  }
+}

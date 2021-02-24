@@ -1,0 +1,26 @@
+/*Program koji transponuje datu kvadratnu matricu celih brojeva
+   tako da rezultujuca matrica bude u originalnoj matrici. Ne koristiti
+   pomocne matrice.*/
+
+class TransportovanjeMatrice{
+  public static void main(String[] args){
+    
+    System.out.println("Unesite dimenziju matrice");
+    int dim = Svetovid.in.readInt();
+    int[][] = M int[dim];
+    int[][] = A int[dim];
+    
+    for(int i = 0; i < dim; i++){
+      for(int j = 0; j < dim; j++){
+        int pom = A[][]
+      }
+    }
+    
+    for(int i = 0; i < dim; i++){
+      for(int j = 0; j < dim; j++){
+        int pom = A[][]
+      }
+    }
+    
+  }
+}

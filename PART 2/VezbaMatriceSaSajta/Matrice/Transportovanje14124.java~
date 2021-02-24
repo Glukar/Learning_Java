@@ -1,0 +1,37 @@
+/*Ucitati dvodimenzionalni niz - matricu nxm. Zamjeniti elemente kolona i redova (transponovana matrica).*/
+
+class Transportovanje14124{
+  public static void main(String[] args){
+    int i, j;
+    
+    int[][] mat = new int[2][4];
+    
+    red = mat.length;
+    kolona = mat.length[0];
+    
+    //Ucitavanje matrice
+    for(i = 0; i < n; i++){
+      for(j = 0; j < n; j++){
+        System.out.println("Ucitajte elemente u matrici [" + i + "] [" + j + "] = ");
+        mat[i][j] = Svetovid.in.readInt();
+      }
+    }
+    
+    //Ispis
+    for(i = 0; i < n; i++){
+      for(j = 0; j < n; j++){
+        System.out.print(mat[i][j] + "\t");
+      }
+      System.out.println();
+    }
+    
+    for(i = 0; i < n; i++){
+      for(j = 0; j < n; j++){
+        System.out.println("Ucitajte elemente u matrici [" + i + "] [" + j + "] = ");
+        mat[i][j] = Svetovid.in.readInt();
+      }
+    }
+
+    
+  }
+}

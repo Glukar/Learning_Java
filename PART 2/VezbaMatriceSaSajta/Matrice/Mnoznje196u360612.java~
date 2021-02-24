@@ -1,0 +1,26 @@
+/*Program za mnozenje dve celobrojne matrice. */
+
+class Mnoznje196u360612{
+  public static void main(String[] args){
+    
+    final int dim1 = 5;
+    final int dim2 = 4;
+    final int dim3 = 3;
+    
+    int i; // za dim1
+    int k; // za dim2
+    int j; // za dim3
+    
+    int[][] A = new int[dim1][dim3];
+    int[][] B = new int[dim2][dim3];
+    int[][] proizvod = new int[dim1][dim3];
+    
+    for(i = 0; i < dim1; i++){
+      for(k = 0; k < dim2; k++){
+        System.out.println("Unesite elemente u matricu A [" + i + "] [" + k + "] = ");
+        A[i][k] = Svetovid.in.readInt();
+      }
+    }
+    
+  }
+}

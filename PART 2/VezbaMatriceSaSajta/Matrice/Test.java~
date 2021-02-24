@@ -1,0 +1,14 @@
+class GlavnaDijagonala{
+  public static void main(String[] args){
+    int i, j, n;
+    
+    System.out.println("Ucitati dimenziju matrice n");
+    n = Svetovid.in.readInt();
+    int[][] mat = new int[n][n];
+    
+    int duzina = mat.length - 1;
+    
+    System.out.println(duzina);
+    
+  }
+}

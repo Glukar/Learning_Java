@@ -1,0 +1,13 @@
+/*Napisati program koji ucitava prirodan broj n (n < 20) i celobrojnu matricu formata nxn, 
+  i proverava da li je matrica simetricna po glavnoj i sporednoj dijagonali. 
+  Ispisati odgovarajucu poruku za svaku proveru simetrije.*/
+
+class SporednaGlavna2151242{
+  public static void main(String[] args){
+    int n, i, j;
+    
+    System.out.println("Ucitajte n");
+    n = Svetovid.in.readInt();
+  }
+}
+

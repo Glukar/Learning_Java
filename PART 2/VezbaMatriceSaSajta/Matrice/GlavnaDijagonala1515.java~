@@ -1,0 +1,19 @@
+/*Ucitati i ispisati dvodimenzionalni niz - matricu nxn. Zatim ispisati clanove niza koji su na glavnoj dijagonali.*/  
+
+class GlavnaDijagonala1515{
+  public static void main(String[] args){
+    int i, j;
+    
+    System.out.println("Ucitajte n");
+    int n = Svetovid.in.readInt();
+    
+    int[][] mat = new int[n][n];
+    
+    for(i = 0; ){
+      for(){
+      
+      }
+    }
+    
+  }
+}

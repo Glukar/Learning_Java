@@ -1,0 +1,7 @@
+/*Ucitati i ispisati dvodimenzionalni niz - matricu nxn. Zatim ispisati clanove niza koji su na glavnoj dijagonali.*/  
+
+class GlavnaDijagonala1623413653{
+  public static void main(String[] args){
+    
+  }
+}

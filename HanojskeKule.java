@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class HanojskeKule {
+  static void hKule(int n, int izvor, int cilj, int pomoc) {
+    if (n == 1) {
+      System.out.println("Prebaci disk sa stapa " + izvor + " na stap " + cilj);
+    } else {
+      hKule(n-1, izvor, pomoc, cilj);
+      hKule(1, izvor, cilj, pomoc);
+      hKule(n-1, pomoc, cilj, izvor);
+    }
+  }
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    int n;
+    do {
+      System.out.print("Unesite broj diskova n (n>0): ");
+      n = input.nextInt();
+    } while (n <= 0);
+    hKule(n, 1, 2, 3);
+  }
+}

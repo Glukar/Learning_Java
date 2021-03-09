@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class TransponovanjeVezba1 {
+  static int[][] = unos (int d) {
+    Scanner input = new Scanner(System.in);
+    int[][] A = new int[d][d];
+    for (int i = 0; i < d; i++) {
+      for (int j = 0; j < d; j++) {
+        System.out.print("Unesite element " + i + ". vrsti i " + j + ". koloni: ");
+        A[i][j] = input.nextInt();
+      }
+    }
+  }
+}

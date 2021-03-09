@@ -1,0 +1,41 @@
+/* Program koji transponuje datu kvadratnu matricu celih brojeva tako da    rezultujuca matrica bude u originalnoj matrici. Ne koristiti pomocne matrice. */
+import java.util.Scanner;
+class Transponovanje {
+  Scanner input = new Scanner(System.in);
+  static int[][] unos (int d) {
+    int[][] A = new int[d][d];
+    for (i = 0; i < d; i++) {
+      for (j = 0; j < d; j++) {
+        System.out.println("Unesite element u " + i + ". vrsti i " + j + ". koloni: ");
+        A[i][j] = input.nextInt();
+      }
+    }
+    return A;
+  }
+  
+  static void stampa(int[][] A, int d) {
+    for(int i = 0; i < d; i++) {
+      for (int j = 0; j < d; j++) {
+        System.out.print(A[i][j] + "\t");
+      }
+      System.out.println();
+    }
+  }
+  static void transp(int[][] A, int d) {
+    for (int i = 1; i < d; i++) {
+      for (int j = 1; j < d; j++) {
+        int pom = A[i][j];
+        A[i][j] = A[j][i];
+        A[j][i] = pom;
+      }
+    }
+  }
+  public static void main(String[] args) {
+    System.out.print("\nUnesite dimenziju matrice: ");
+    int dim = input.nextInt();
+    int [][] M = unos(dim);
+    transp(M, dim);
+    System.out.println("Transponovana matrica je:");
+    stampa(M, dim);
+  }
+}

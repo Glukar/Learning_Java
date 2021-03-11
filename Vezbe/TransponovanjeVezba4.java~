@@ -1,0 +1,38 @@
+import java.util.Scanner;
+class TransponovanjeVezba4 {
+  static int unos(int[][] A, int d) {
+    Scanner input = new Scanner(System.in);
+    for(int i = 0; i < d; i++) {
+      for (int j = 0; j < d; j++) {
+        System.out.print("Unesite element u " + i + ". vrsti i " + j + ". koloni: ");
+        A[i][j] = input.nextInt();
+      }
+    }
+    return A;
+  }
+  void static stampa(int[][] A, int d) {
+    for (int i = 0; i < d; i++) {
+      for(int j = 0; j < d; j++) {
+        System.out.println(A[i][j] + "\t");
+      }
+      System.out.println();
+    }
+  }
+  void static transp(int[][] A, int d) {
+    for (int i = 1; i < d; i++) {
+      for (int j = 0; j < d; j++) {
+        pom = A[i][j];
+        A[i][j] = A[j][i];
+        A[i][j] = pom;
+      }
+    }
+  }
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    System.out.print("Unesite dimenzije matrice: ");
+    int dim = input.nextInt();
+    int[][] M = unos(dim);
+    System.out.println("Ovako izgleda data transponovana matrica: ");
+    stampa(M, dim);
+  }
+}

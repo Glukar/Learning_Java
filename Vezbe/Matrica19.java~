@@ -1,0 +1,34 @@
+// U?itati dvodimenzionalni niz. Ispisati: negativne, nule pa pozitivne ?lanove niza.
+import java.util.Scanner;
+class Matrica19 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    System.out.print("Unesite broj redova u matrici: ");
+    int red = input.nextInt();
+    System.out.print("Unesite broj kolona u matrici: ");
+    int kol = input.nextInt();
+    int[][] niz = new int[red][kol];
+    // Unos u matricu
+    for (int i = 0; i < niz.length) {
+      for (int j = 0; j < niz[i].length) {
+        System.out.print("A[" + i + ", "+ j + "]");
+        A[i][j] = input.nextInt();
+      }
+    }
+    // Ispisivanje matrice
+    for (int i = 0; i < red; i++) {
+      for (int j = 0; j < kol; j++) {
+        while (A[i][j] < 0) {
+          System.out.print(A[i][j] + " ");
+        }
+        while (A[i][j] == 0) {
+          System.out.print(A[i][j] + " ");
+        }
+        while (A[i][j] > 0) {
+          System.out.print(A[i][j] + " ");
+        }
+      }
+      System.out.println();
+    }
+  }
+}

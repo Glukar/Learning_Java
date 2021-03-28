@@ -1,0 +1,7 @@
+/* Napisati program koji ucitava string i ispisuje koliko kojih cifara     string sadrzi, kao i broj znakova iz stringa koji nisu cifre. */ 
+import java.util.Scanner;
+class BrojCifaraPonavljanje {
+  public static void main(String[] args) {
+    
+  }
+}

@@ -1,0 +1,20 @@
+/* Napisati program koji stampa sve cele brojeve izmedju 1 i 10000    koji su jednaki zbiru kubova svojih cifara. */
+class KuboviCifaraPonavljanje {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Glavna deklaracija
+    int i = 1;
+    glavnaPetlja: while (i < 10000) {
+      i++;
+      int pom = i;
+      int cifra = pom % 10;
+      int zbir = cifra * cifra * cifra;
+      if (zbir > cifre) {
+        pom /= 10;
+      } else {
+        System.out.print("Svi brojevi koji su jednaki zbiru kubova svojih cifara su: " + i + " ");
+      }
+    }
+    
+  }
+}

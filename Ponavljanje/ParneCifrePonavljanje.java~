@@ -1,0 +1,22 @@
+/* Napisati program koji ucitava prirodan broj i proverava    da li su sve cifre unetog broja parne. */
+import java.util.Scanner;
+class ParneCifrePonavljanje {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    // Glavna deklaracija
+    boolean paran = true;
+    System.out.print("Unesite prirodan broj: ");
+    int b = input.nextInt();
+    glavnaPetlja: for(int i = 0; i < b.length; i++) {
+      int pom = i;
+      while (pom != 0 && paran) {
+        int cifra = pom % 10;
+        if (cifra % 2 == 0) {
+          continue glavnaPetlja;
+        } else {
+          paran = false;
+        }
+      }
+    }
+  }
+}

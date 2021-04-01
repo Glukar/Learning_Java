@@ -1,0 +1,12 @@
+class Rekurzija {
+  public static void main(String[] args) {
+    System.out.println(faktorijel(4));
+  }
+  public static int fakotorijel (int broj) {
+    if (broj == 1) {
+      return 1;
+    } else{
+      return broj * faktorijel(broj - 1);
+    }
+  }
+}

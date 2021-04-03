@@ -2,4 +2,5 @@
 My journey with java 
 
 ## Description
-This repository is used for uploading, and saving smaller projects along my way of learning java.
+This repository is used for uploading and saving smaller projects related to Java.
+

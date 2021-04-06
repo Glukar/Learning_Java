@@ -8,11 +8,11 @@ class RekurzijaTest1 {
     Scanner input =  new Scanner(System.in);
     System.out.print("Unesite broj redova i kolona matrice A: ");
     rk = input.nextInt();
-    A(rk);
+    int[][] niz = A(rk);
     // Stampanje matrice
     for (int i = 0; i < rk; i++) {
       for (int j = 0; j < rk; j++) {
-        System.out.print(A[i][j] + " ");
+        System.out.print(niz[i][j] + " ");
       }
       System.out.println();
     }

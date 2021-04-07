@@ -1,3 +1,3 @@
-# All of my current projects 
+# All of my current projects:
 ## Calculator
 ## OperacijaKolokvijum

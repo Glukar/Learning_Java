@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class RekurzijaTest5 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    System.out.print("Unesite broj od kog zelite da pocne odbrojavanje: ");
+    int n = input.nextInt();
+  }
+  static int odb(int n) {
+    if (n == 0) {
+      System.out.print("0");
+      return 0;
+    } else {
+      System.out.print(n);
+      return (n - 1);
+    }
+  }
+}

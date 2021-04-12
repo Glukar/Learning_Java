@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class RekurzijaTest7 {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    
+  }
+  public static int broj() {
+    double rand = (Math.random * 100) + 1;
+    
+  }
+}

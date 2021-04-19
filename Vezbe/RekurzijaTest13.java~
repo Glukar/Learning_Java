@@ -1,0 +1,23 @@
+// Program koji racuna vrednost funkcije
+import java.util.Scanner;
+class RekurzijaTest13 {
+  public static void main(String[] args) {
+    int x = input();
+    
+  }
+  public static int input() {
+    Scanner input = new Scanner(System.in);
+    System.out.print("Unesite x:");
+    int x = input.nextInt();
+    return x;
+  }
+  public void stampa(int x) {
+    if (x < 0) {
+      x = x * x;
+    } else if (x == 0) {
+      x = 42;
+    } else {
+      x = Math.ln(x);
+    }
+  }
+}

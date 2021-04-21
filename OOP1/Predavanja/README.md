@@ -1,1 +1,2 @@
-Predavanja(bez videa)
+#Predavanja(bez videa)
+1. Gotova

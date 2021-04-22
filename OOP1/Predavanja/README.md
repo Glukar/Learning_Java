@@ -1,2 +1,3 @@
 #Predavanja(bez videa)
-1. Gotova
+1. Gotovo
+2. Gototo

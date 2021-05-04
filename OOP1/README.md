@@ -1,2 +1,2 @@
 # Objektno Orjentisano Programiranje
-Prakticne Vezba 20:43
+Prakticne Vezba 1 Gotova

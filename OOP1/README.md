@@ -3,4 +3,4 @@ Prakticna Vezba 1 Gotova
 
 Prakticna Vezba 2 Gotova
 
-Prakticna Vezba 3 36:43
+Prakticna Vezba 3 36:43 (ponovljeno)
